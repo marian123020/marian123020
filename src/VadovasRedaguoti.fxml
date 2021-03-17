@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VadovasRedaguoti">
+    <children>
+        <TableView fx:id="table" layoutX="44.0" layoutY="71.0" prefHeight="105.0" prefWidth="523.0">
+            <columns>
+                <TableColumn fx:id="pav" prefWidth="166.0" text="Vardas" />
+                <TableColumn fx:id="kod" prefWidth="183.0" text="Kodas" />
+                <TableColumn fx:id="pass" prefWidth="173.0" text="Slaptazodis" />
+            </columns>
+        </TableView>
+        <Button fx:id="atgal" layoutX="286.0" layoutY="340.0" mnemonicParsing="false" text="Atgal" />
+        <Label layoutX="232.0" layoutY="28.0" text="Vartotoju sarasas">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="kodasEsantis" layoutX="233.0" layoutY="188.0" promptText="kodasEsantis" />
+        <TextField fx:id="Vardas" layoutX="60.0" layoutY="230.0" promptText="Vardas" />
+        <TextField fx:id="Kodas" layoutX="233.0" layoutY="230.0" promptText="Kodas" />
+        <TextField fx:id="Slaptazodis" layoutX="410.0" layoutY="230.0" promptText="Slaptazodis" />
+        <Button fx:id="Keisti_pavadinima" layoutX="96.0" layoutY="267.0" mnemonicParsing="false" text="Keisti varda" />
+        <Button fx:id="KeistiK" layoutX="271.0" layoutY="267.0" mnemonicParsing="false" text="Keisti koda" />
+        <Button fx:id="Keisti_pass" layoutX="434.0" layoutY="267.0" mnemonicParsing="false" text="Keisti slaptazodi" />
+        <MenuBar fx:id="save" layoutX="8.0" layoutY="8.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Saugoti" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

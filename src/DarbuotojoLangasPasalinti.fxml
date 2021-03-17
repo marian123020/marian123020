@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DarbuotojoLangasPasalinti1">
+    <children>
+        <Label layoutX="190.0" layoutY="41.0" text="Darbuotojo langas">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Label>
+        <Label layoutX="258.0" layoutY="80.0" text="Pasirinkite">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="pav" layoutX="226.0" layoutY="148.0" promptText="Pavadinimas" />
+        <TextField fx:id="kod" layoutX="226.0" layoutY="200.0" promptText="Kodas" />
+        <Button fx:id="saugoti" layoutX="272.0" layoutY="258.0" mnemonicParsing="false" text="Pašalinti" />
+      <CheckBox fx:id="pajamos" layoutX="190.0" layoutY="117.0" mnemonicParsing="false" text="Pajamos" />
+      <CheckBox fx:id="islaidos" layoutX="339.0" layoutY="117.0" mnemonicParsing="false" text="Islaidos" />
+        <MenuBar fx:id="save" layoutX="8.0" layoutY="8.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Saugoti" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+      <Button fx:id="atgal" layoutX="280.0" layoutY="315.0" mnemonicParsing="false" text="Atgal" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PagrindinisLangas">
+   <children>
+      <Button fx:id="Darb" layoutX="105.0" layoutY="89.0" mnemonicParsing="false" text="Darbuotojas atsakingas uz sistema" />
+      <Button fx:id="Vad" layoutX="105.0" layoutY="130.0" mnemonicParsing="false" text="Vadovas" />
+      <Button fx:id="exit" layoutX="495.0" layoutY="340.0" mnemonicParsing="false" text="Exit" />
+      <Label layoutX="109.0" layoutY="47.0" text="Pasirinkite vartotoją" />
+      <MenuBar fx:id="save" layoutX="8.0" layoutY="8.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Saugoti" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

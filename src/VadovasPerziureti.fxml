@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VadovasPerziureti">
+    <children>
+        <Button fx:id="atgal" layoutX="286.0" layoutY="361.0" mnemonicParsing="false" text="Atgal" />
+        <Label layoutX="247.0" layoutY="31.0" text="Vartotoju sarasas">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+      <TableView fx:id="table" layoutX="27.0" layoutY="69.0" prefHeight="264.0" prefWidth="546.0">
+        <columns>
+          <TableColumn fx:id="Vardas" prefWidth="190.0" text="Vardas" />
+          <TableColumn fx:id="kod" prefWidth="169.0" text="Kodas" />
+            <TableColumn fx:id="pass" prefWidth="186.0" text="Slaptazodis" />
+        </columns>
+      </TableView>
+        <MenuBar fx:id="save" layoutX="8.0" layoutY="8.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Saugoti" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

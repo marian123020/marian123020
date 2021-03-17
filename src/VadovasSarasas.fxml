@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VadovasSarasas">
+    <children>
+        <TableView fx:id="table" layoutX="44.0" layoutY="71.0" prefHeight="282.0" prefWidth="527.0">
+            <columns>
+                <TableColumn fx:id="kategor" minWidth="0.0" prefWidth="84.0" text="Kategorija" />
+                <TableColumn fx:id="pav" prefWidth="132.0" text="Pavadinimas" />
+                <TableColumn fx:id="kod" minWidth="4.0" prefWidth="74.0" text="Kodas" />
+                <TableColumn fx:id="kai" minWidth="6.0" prefWidth="84.0" text="Kaina" />
+                <TableColumn fx:id="subk" prefWidth="152.0" text="Subkategorija" />
+            </columns>
+        </TableView>
+        <Button fx:id="atgal" layoutX="286.0" layoutY="361.0" mnemonicParsing="false" text="Atgal" />
+        <Label layoutX="247.0" layoutY="31.0" text="Pajamu sarasas">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <MenuBar fx:id="save" layoutX="8.0" layoutY="8.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Saugoti" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

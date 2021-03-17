@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DarbuotojoLangasRedaguotiPajamos">
+    <children>
+        <TableView fx:id="table" layoutX="44.0" layoutY="71.0" prefHeight="105.0" prefWidth="523.0">
+            <columns>
+            <TableColumn fx:id="kategor" prefWidth="75.0" text="Kategorija" />
+                <TableColumn fx:id="pav" prefWidth="129.0" text="Pavadinimas" />
+                <TableColumn fx:id="kod" prefWidth="57.0" text="Kodas" />
+                <TableColumn fx:id="kai" prefWidth="108.0" text="Kaina" />
+                <TableColumn fx:id="subk" prefWidth="153.0" text="Subkategorija" />
+            </columns>
+        </TableView>
+        <Button fx:id="atgal" layoutX="278.0" layoutY="361.0" mnemonicParsing="false" text="Atgal" />
+        <Label layoutX="247.0" layoutY="31.0" text="Pajamu sarasas">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+      <TextField fx:id="kodasEsantis" layoutX="135.0" layoutY="188.0" promptText="kodasEsantis" />
+      <TextField fx:id="pavadinimass" layoutX="60.0" layoutY="230.0" promptText="Pavadinimas" />
+      <TextField fx:id="Kodass" layoutX="233.0" layoutY="230.0" promptText="Kodas" />
+      <TextField fx:id="kainaaa" layoutX="410.0" layoutY="230.0" promptText="Kaina" />
+      <Button fx:id="Keisti_pavadinima" layoutX="80.0" layoutY="267.0" mnemonicParsing="false" text="Keisti pavadinima" />
+      <Button fx:id="KeistiK" layoutX="263.0" layoutY="267.0" mnemonicParsing="false" text="Keisti koda" />
+      <Button fx:id="Keisti_kaina" layoutX="447.0" layoutY="267.0" mnemonicParsing="false" text="Keisti kaina" />
+      <TextField fx:id="Sub" layoutX="233.0" layoutY="314.0" promptText="Subkategorija" />
+      <Button fx:id="prideti" layoutX="422.0" layoutY="314.0" mnemonicParsing="false" text="Prideti subkategorija" />
+      <Button fx:id="pasalinti" layoutX="66.0" layoutY="314.0" mnemonicParsing="false" text="Pasalinti subkategorija" />
+      <CheckBox fx:id="islaidos" layoutX="308.0" layoutY="192.0" mnemonicParsing="false" text="Islaidos" />
+      <CheckBox fx:id="pajamos" layoutX="439.0" layoutY="192.0" mnemonicParsing="false" text="Pajamos" />
+        <MenuBar fx:id="save" layoutX="8.0" layoutY="8.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Saugoti" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

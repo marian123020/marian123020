@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VadovoLangas">
+    <children>
+        <Button fx:id="Prideti" layoutX="251.0" layoutY="125.0" mnemonicParsing="false" text="Prideti vartotoja" />
+        <Button fx:id="Pasalinti" layoutX="246.0" layoutY="169.0" mnemonicParsing="false" text="Pasalinti vartotoja" />
+        <Button fx:id="atgal" layoutX="278.0" layoutY="338.0" mnemonicParsing="false" text="Atgal" />
+        <Label layoutX="212.0" layoutY="41.0" text="Vadovo langas">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Label>
+        <Label layoutX="258.0" layoutY="88.0" text="Pasirinkite">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Button fx:id="perziureti_sarasa" layoutX="225.0" layoutY="214.0" mnemonicParsing="false" text="Peržiureti vartotoju sarasa" />
+        <Button fx:id="redaguoti" layoutX="241.0" layoutY="252.0" mnemonicParsing="false" text="Redaguoti vartotoja" />
+      <Button fx:id="paslaugos" layoutX="225.0" layoutY="296.0" mnemonicParsing="false" text="Perziureti paslaugu sarasa" />
+        <MenuBar fx:id="save" layoutX="8.0" layoutY="8.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Saugoti" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

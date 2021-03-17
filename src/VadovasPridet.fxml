@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VadovasPridet">
+    <children>
+        <Label layoutX="214.0" layoutY="41.0" text="Vadovo langas">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Label>
+        <Label layoutX="258.0" layoutY="80.0" text="Pasirinkite">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="pav" layoutX="226.0" layoutY="159.0" promptText="Pavadinimas" />
+        <TextField fx:id="pass" layoutX="226.0" layoutY="200.0" promptText="Slaptazodis" />
+        <TextField fx:id="kod" layoutX="227.0" layoutY="239.0" promptText="Kodas" />
+        <Button fx:id="saugoti" layoutX="272.0" layoutY="292.0" mnemonicParsing="false" text="Saugoti" />
+        <MenuBar fx:id="save" layoutX="8.0" layoutY="8.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Saugoti" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+      <Button fx:id="atgal" layoutX="278.0" layoutY="336.0" mnemonicParsing="false" text="Atgal" />
+    </children>
+</AnchorPane>
